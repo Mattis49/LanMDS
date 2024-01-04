@@ -1,0 +1,68 @@
+@import url("https://fonts.cdnfonts.com/css/counter-strike");
+body {
+  background-color: #cfe3ed;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: counter-strike;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  background-color: antiquewhite;
+}
+
+header h1 {
+  color: #84b268;
+  text-shadow: #4b4821 2px 2px;
+  font-size: 48px;
+}
+
+main {
+  padding-top: 20px;
+  background-color: #cfe3ed;
+  color: #ebb031;
+  text-shadow: #4b4821 2px 2px;
+}
+main h1 {
+  font-size: 60px;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  max-width: 83%;
+  margin: auto;
+}
+section h1{
+    font-size: 55px;
+    padding-bottom: 20px;
+}
+section h2 {
+  font-size: 50px;
+  
+}
+section h3 {
+  font-size: 42px;
+  color: whitesmoke;
+}
+
+section p{
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+
+
+
+#section2 h3 {
+  font-weight: bold;
+  padding: 5px;
+}
