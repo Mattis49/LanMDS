@@ -2,6 +2,11 @@
 body {
   background-color: #cfe3ed;
 }
+
+#link {
+  text-decoration: none;
+  color: rgb(132, 178, 104);
+}
 * {
   padding: 0;
   margin: 0;
@@ -41,28 +46,65 @@ main section {
   max-width: 83%;
   margin: auto;
 }
-section h1{
-    font-size: 55px;
-    padding-bottom: 20px;
+section h1 {
+  font-size: 55px;
+  padding-bottom: 20px;
 }
 section h2 {
   font-size: 50px;
-  
 }
 section h3 {
   font-size: 42px;
   color: whitesmoke;
 }
 
-section p{
-    font-size: 40px;
-    color: whitesmoke;
+section p {
+  font-size: 40px;
+  color: whitesmoke;
 }
-
-
-
 
 #section2 h3 {
   font-weight: bold;
   padding: 5px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form input {
+  height: 68px;
+  width: 500px;
+  font-size: 25px;
+  display: flex;
+  border: solid 2px #ebb031;
+  box-shadow:#4b4821 3px 3px ;
+  margin-top: 40px;
+
+
+}
+
+form div input{
+  display: flex;
+}
+
+button{
+  height: 68px;
+  font-size: 40px;
+  color: #4b4821;
+  width: 370px;
+  border: solid 2px #ebb031;
+  box-shadow:#4b4821 4px 4px ;
+  margin-top: 40px;
+}
+form input::placeholder{
+  margin-left: 10px;
+}
+#formmain {
+  max-width: 75%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
